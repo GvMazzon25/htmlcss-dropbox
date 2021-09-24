@@ -39,6 +39,10 @@ body{
     padding-top: 200px;
 }
 
+.w-29per{
+    width: 30%;
+}
+
 .mrg-bttm-30px{
     margin-bottom: 30px;
 }
@@ -50,6 +54,11 @@ body{
 .pdng-lft-30px{
     padding-left: 30px;
 }
+
+.margin-lateral{
+    margin: 0 54px;
+}
+
 
 /*tag*/
 
@@ -178,4 +187,8 @@ header{
 
 .radio label{
     font-size: 20px;
+}
+
+.subscription .w-29per{
+    border-style: 1px solid gray;
 }
