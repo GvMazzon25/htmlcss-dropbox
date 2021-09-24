@@ -171,3 +171,11 @@ header{
 .box-title h2{
     font-size: 40px;
 }
+
+.radio{
+    display: inline-block;
+}
+
+.radio label{
+    font-size: 20px;
+}
