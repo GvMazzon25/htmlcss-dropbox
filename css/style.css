@@ -55,6 +55,10 @@ body{
     padding-left: 30px;
 }
 
+.pdng-tp-20px{
+    padding-top: 20px;
+}
+
 .margin-lateral{
     margin: 0 54px;
 }
@@ -65,7 +69,7 @@ body{
 
 /*tag*/
 
-h2{
+.big-h2{
     margin-bottom: 70px;
 }
 
@@ -205,8 +209,7 @@ header{
 .border{
     border-style:solid; 
     border-color: gray; 
-    border-width: 
-    1px;
+    border-width: 1px;
     padding: 10px;
 }
 
@@ -214,4 +217,23 @@ header{
     height: auto;
     height: 1070px;
 }
+
+.title-sec{
+    display: block;
+    width: 30%;
+    margin: auto; 
+}
+
+
+.height-100per span{
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.subtitle{
+    display: block;
+    color: grey;
+    margin-top: -20px;
+}
+
 
