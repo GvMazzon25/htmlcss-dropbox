@@ -120,6 +120,12 @@ p{
     line-height: 25px;
 }
 
+hr{
+    width: 50px;
+    background-color: rgb(165, 164, 164);
+    border-width: 2px;
+}
+
 /*Button*/
 
 .button{
@@ -186,8 +192,24 @@ nav li a{
     color: rgb(98, 98, 98);
 }
 
+.yellow{
+    background-color: yellow;
+}
+
 .green{
     background-color: rgba(162, 211, 155, 1);
+}
+
+.light-blue{
+    background-color: rgba(0, 147, 206, 1);
+}
+
+.bordeau{
+    background-color: rgba(97, 8, 43, 1);
+}
+
+.thrue-blue{
+    background-color: rgba(13, 36, 129, 1);
 }
 
 .red1{
@@ -196,6 +218,10 @@ nav li a{
 
 .red2{
     background-color: rgba(213, 0, 31, 1);
+}
+
+.white{
+    background-color: rgb(230, 222, 222);
 }
 
 /*Header Section*/
@@ -418,6 +444,18 @@ section li{
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.micro-box img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.micro-box {
+    width: 80%;
+    height: 80%;
+    margin: 40px auto;
 }
 
 
