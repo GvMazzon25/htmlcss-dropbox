@@ -217,7 +217,7 @@ header{
 
 .border{
     border-style:solid; 
-    border-color: gray; 
+    border-color: rgb(231, 228, 228); 
     border-width: 1px;
     padding: 10px;
 }
