@@ -178,6 +178,18 @@ nav li a{
     color: rgb(98, 98, 98);
 }
 
+.green{
+    background-color: rgba(162, 211, 155, 1);
+}
+
+.red1{
+    background-color: rgba(255, 28, 28, 1);
+}
+
+.red2{
+    background-color: rgba(213, 0, 31, 1);
+}
+
 /*Header Section*/
 
 header{
@@ -359,9 +371,15 @@ section li{
     left: 206px;
 }
 
+.user-title span{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+
 /*User Section*/
 .section-blu{
-    height: 730px;
+    height: 900px;
 }
 
 .section-blu .height-100per .height-50per{
@@ -369,7 +387,7 @@ section li{
 }
 
 .height-50per aside{
-    width: 25%;
+    width: 30%;
     height: 100%;
 }
 
@@ -377,5 +395,24 @@ section li{
     width: 40%;
     height: 100%;
 }
+
+.small-box{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.small-box img{
+    width: 50%;
+    height: 55%;
+    object-fit: contain;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
 
 
