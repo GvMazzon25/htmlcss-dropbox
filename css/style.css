@@ -98,6 +98,7 @@ body{
 
 .big-h2{
     margin-bottom: 70px;
+    font-size: 40px;
 }
 
 a{
@@ -222,9 +223,6 @@ header{
     height: 160px;
 }
 
-.box-title h2{
-    font-size: 40px;
-}
 
 .radio{
     display: inline-block;
@@ -320,5 +318,31 @@ section li{
     object-fit: cover;
 }
 
+.button-trasp{
+    font-size: 18px;
+}
+
+/*Buisness Section*/
 
 
+.card-col{
+    width: 100%;
+    height: 500px;
+}
+
+.card{
+    height: 100%;
+}
+
+.img-card{
+    width: 100%;
+    height: 260px;
+}
+
+.img-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Designit Section*/
