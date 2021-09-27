@@ -29,6 +29,10 @@ body{
     float: right;
 }
 
+.bold{
+    font-weight: 700;
+}
+
 
 /*dimension*/
 .with-50{
@@ -37,6 +41,10 @@ body{
 
 .pdng-tp-200px{
     padding-top: 200px;
+}
+
+.mrg-bttm-150px{
+    margin-bottom: 150px;
 }
 
 .w-29per{
@@ -56,6 +64,10 @@ body{
     margin-right: 40px;
 }
 
+.mrg-tp-50px{
+    margin-top: 50px;
+}
+
 .pdng-lft-30px{
     padding-left: 30px;
 }
@@ -71,6 +83,16 @@ body{
 .height-100per{
     height: 100%;
 }
+
+.w-70per{
+    width: 70%;
+}
+
+.w-30per{
+    width: 30%;
+}
+
+
 
 /*tag*/
 
@@ -265,5 +287,18 @@ section li{
     margin-bottom: 25px;
 }
 
+/*Team Box*/
+
+.team-box{
+   margin-top: 60px;
+   width: 100%;
+   height: 230px;
+}
+
+.team-box .border span{
+    display: block;
+    width: 10%;
+    margin: auto;
+}
 
 
