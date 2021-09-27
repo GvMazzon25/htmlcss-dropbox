@@ -458,6 +458,14 @@ section li{
     margin: 40px auto;
 }
 
+.micro-box span{
+    font-weight: 500;
+}
+
+.small-box img{
+    filter: invert(100%);
+}
+
 
 
 
