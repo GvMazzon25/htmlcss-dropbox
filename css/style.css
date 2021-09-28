@@ -108,6 +108,9 @@ body{
     width: 30%;
 }
 
+.w-20per{
+    width: 20%;
+}
 
 
 /*tag*/
@@ -276,13 +279,6 @@ header{
     width: auto;
     height: 470px;
     margin: auto;
-}
-
-.header-bottom1 div{
-    transform: rotate(270deg);
-    position: relative;
-    top: -200px;
-    left: -200px;
 }
 
 .header-bottom1 div a{
@@ -527,7 +523,30 @@ footer{
     width: 100%;
     height: 500px;
     background-color: black;
+    color: white;
 }
+
+footer .up-section{
+    width: 100%;
+    height: 400px;
+    padding-top: 100px;
+}
+
+footer .up-section li{
+    margin: 5px 0;
+}
+
+footer .up-section hr{
+    margin-top: 130px;
+    width: 100px;
+}
+
+footer .down-section{
+    padding-top: 50px;
+    font-size: 14px;
+}
+
+
 
 
 
