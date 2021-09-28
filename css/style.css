@@ -516,6 +516,21 @@ section li{
     font-weight: 700;
 }
 
+.request p{
+    display: none;
+    margin-bottom: 20px;
+}
+
+
+.request:hover  p{
+    height: auto;
+    display: inline-block;
+}
+
+.request:hover{
+    margin-bottom: 40px;
+}
+
 .hr-special{
     width: 100%;
     border-color: rgb(214, 212, 212);
