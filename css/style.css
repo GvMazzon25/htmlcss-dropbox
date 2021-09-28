@@ -226,19 +226,39 @@ nav{
     z-index: 1;
 }
 
-nav ul{
+nav .elenco{
     display: inline-block;
     vertical-align: 7px;
 }
 
-nav ul li{
+nav .elenco li{
     display: inline-block;
+    height: 80px;
     padding-top: 30px; 
 }
 
-nav li a{
+nav .elenco li a{
     color: #000;
     font-weight: 600;
+}
+
+.shadow{
+    width: 250px;
+    height:auto;
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    /*display: none;*/
+    padding: 0 0 5px 5px;
+    margin-top: -10px;
+}
+
+.elenco4:hover .shadow{
+    display: block;
+}
+
+.shadow:hover .shadow{
+    display: block;
 }
 
 /*Header Section*/
