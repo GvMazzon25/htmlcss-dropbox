@@ -248,7 +248,7 @@ nav .elenco li a{
     background-color: white;
     position: fixed;
     top: 80px;
-    /*display: none;*/
+    display: none;
     padding: 0 0 5px 5px;
     margin-top: -10px;
 }
