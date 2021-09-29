@@ -242,14 +242,25 @@ nav .elenco li a{
     font-weight: 600;
 }
 
+.elenco4{
+    border-color: transparent;
+    border-style: none;
+}
+
+.elenco4:hover{
+    border-bottom: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
 .shadow{
     width: 250px;
     height: 100px;
     background-color: white;
     position: fixed;
-    top: 80px;
+    top: 84px;
     display: none;
-    
+    border-style: none;
 }
 
 .elenco4:hover .shadow{
