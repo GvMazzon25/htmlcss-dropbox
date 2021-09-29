@@ -244,13 +244,12 @@ nav .elenco li a{
 
 .shadow{
     width: 250px;
-    height:auto;
+    height: 100px;
     background-color: white;
     position: fixed;
     top: 80px;
     display: none;
-    padding: 0 0 5px 5px;
-    margin-top: -10px;
+    
 }
 
 .elenco4:hover .shadow{
@@ -259,6 +258,22 @@ nav .elenco li a{
 
 .shadow:hover .shadow{
     display: block;
+}
+
+.shadow li{
+    display: block;
+    height: 50px;
+    margin-top: -30px;
+}
+
+.box-shadow{
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.box-shadow:hover{
+    background-color: gray;
 }
 
 /*Header Section*/
